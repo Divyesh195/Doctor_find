@@ -113,7 +113,7 @@ const DoctorList = () => {
 
   useEffect(() => {
     handleSearch();
-  }, [gender, sort, minExp, maxExp, fees, avl]);
+  }, [gender, sort, minExp, maxExp, fees, avl, handleSearch]);
 
   return (
     <div className="bg-background">
