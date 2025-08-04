@@ -2,7 +2,7 @@ export const doctors = [
     {
       id: 1,
       name: "Dr. Divyesh Parmar(me)",
-      image: "./d1.png",
+      image: "/d1.png",
       gender: "Male" ,
       specialty: "Dermatologist",
       experience: "11",
@@ -17,7 +17,7 @@ export const doctors = [
     {
       id: 2,
       name: "Dr. Anjali Sharma",
-      image: "./d2.png",
+      image: "/d2.png",
       gender: "Female",
       specialty: "Cardiologist",
       experience: "8",
@@ -32,7 +32,7 @@ export const doctors = [
     {
       id: 3,
       name: "Dr. Ravi Mehta",
-      image: "./d3.png",
+      image: "/d3.png",
       gender: "Male" ,
       specialty: "Dermatologist",
       experience: "15",
@@ -47,7 +47,7 @@ export const doctors = [
     {
       id: 4,
       name: "Dr. Sneha Iyer",
-      image: "./d5.png",
+      image: "/d5.png",
       gender: "Female",
       specialty: "Gynecologist",
       experience: "7 ",
@@ -62,7 +62,7 @@ export const doctors = [
     {
       id: 5,
       name: "Dr. Ajay Kumar",
-      image: "./d4.png",
+      image: "/d4.png",
       gender: "Male" ,
       specialty: "Neurologist",
       experience: "12",
@@ -77,7 +77,7 @@ export const doctors = [
     {
       id: 6,
       name: "Dr. Radhika Verma",
-      image: "./d2.png",
+      image: "/d2.png",
       gender: "Female",
       specialty: "Dermatologist",
       experience: "6",
@@ -92,7 +92,7 @@ export const doctors = [
     {
       id: 7,
       name: "Dr. Nikhil Reddy",
-      image: "./d3.png",
+      image: "/d3.png",
       gender: "Male" ,
       specialty: "Neurologist",
       experience: "7",
@@ -107,7 +107,7 @@ export const doctors = [
     {
       id: 8,
       name: "Dr. Priya Desai",
-      image: "./d5.png",
+      image: "/d5.png",
       gender: "Female",
       specialty: "Gynecologist",
       experience: "14",
@@ -122,7 +122,7 @@ export const doctors = [
     {
       id: 9,
       name: "Dr. Arvind Patel",
-      image: "./d4.png",
+      image: "/d4.png",
       gender: "Male" ,
       specialty: "Gynecologist",
       experience: "4",

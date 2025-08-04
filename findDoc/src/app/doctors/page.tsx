@@ -94,7 +94,7 @@ const DoctorList = () => {
         setLoading(false);
       }
     } catch (error) {
-      console.log("Error occured in api", Error);
+      console.log("Error occured in api", error);
     } finally {
       setLoading(false);
     }

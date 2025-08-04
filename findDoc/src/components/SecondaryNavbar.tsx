@@ -1,9 +1,5 @@
-"use client";
-
-import { usePathname } from "next/navigation";
 
 const SNavbar = () => {
-  const pathname = usePathname();
   return (
     <nav className="bg-white shadow-sm border-b border-gray-400 sticky top-[60px] z-10 lg:hidden">
       <div className="flex items-center justify-center py-4 space-x-4">

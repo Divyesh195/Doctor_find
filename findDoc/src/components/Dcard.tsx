@@ -1,4 +1,5 @@
 import { MapPin, Star, Phone, Calendar } from "lucide-react";
+import Image from "next/image";
 
 interface DoctorCardProps {
   name: string;
@@ -25,14 +26,16 @@ const DoctorCard = ({
   reviews,
   availability,
   clinicName,
-  additionalClinics,
 }: DoctorCardProps) => {
   return (
     <div className="transition-all duration-300 md:border-t border-gray-400 bg-gray-100 hover:bg-blue-100 w-full">
       <div className="flex md:flex-row flex-col items-baseline md:items-start gap-4  border border-gray-400 md:border-0 rounded-sm p-5 md:p-10 cursor-pointer">
         {/* Doctor Image */}
         <div className="flex-shrink-0">
-          <img
+          <Image
+            unoptimized
+            height={10}
+            width={10}
             src={image}
             alt={name}
             className="w-24 h-24 rounded-full object-cover border-2 border-gray-200"
@@ -46,8 +49,12 @@ const DoctorCard = ({
               <h3 className="text-2xl  font-semibold text-primary hover:underline cursor-pointer">
                 {name}
               </h3>
-              <p className="text-md  font-semibold text-gray-600">{specialty}</p>
-              <p className="text-sm text-gray-600">{experience} Year of experience</p>
+              <p className="text-md  font-semibold text-gray-600">
+                {specialty}
+              </p>
+              <p className="text-sm text-gray-600">
+                {experience} Year of experience
+              </p>
             </div>
           </div>
 
