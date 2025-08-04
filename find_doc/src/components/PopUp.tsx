@@ -26,7 +26,7 @@ const PopUp = () => {
         ></div>
 
         {/* Popup box */}
-        <div className="relative z-10 bg-white rounded-lg shadow-lg flex flex-col items-center space-y-4 w-[40vw]">
+        <div className="relative z-10 bg-white rounded-lg shadow-lg flex flex-col items-center space-y-4 w-[80vw] lg:w-[40vw]">
           <div className="mt-10 px-5">
             <p className="text-2xl text-gray-800 font-bold text-center mb-3">
               Doctor data is limited
